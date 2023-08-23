@@ -1,7 +1,6 @@
 # LittleAdversary
 
-
-<img width="400" alt="Screenshot 2023-08-24 000844" src="https://github.com/harry-kav/LittleAdversary/assets/75479651/fb4651ef-8f3f-4098-b26a-138a7b296a8b">
+<img width="400" alt="Screenshot 2023-08-24 000844" src="https://github.com/harry-kav/LittleAdversary/assets/75479651/dd893305-58da-4d66-9e50-8b487b49d0cf">
 
 LittleAdversary is an adversarial machine learning library made to aid
 research into adversarial attacks and defences, with a primary focus on
