@@ -1,4 +1,4 @@
-\# LittleAdversary
+# LittleAdversary
 
 LittleAdversary is an adversarial machine learning library made to aid
 research into adversarial attacks and defences, with a primary focus on
@@ -7,23 +7,33 @@ networks replicating security-critical tasks that can be attacked with
 adversarial examples and defended, either by traditional adversarial
 training or by our novel siamese verification networks. This library was
 released as part of the paper \'Siamese Neural Networks for One-shot
-Adversarial Robustness\'.
+Adversarial Robustness\' and as such, it contains Jupyter notebooks
+detailing how to use siamese neural networks to defend against adversarial
+attacks without requiring a large dataset of adversarial examples. The 
+library also contains modified versions of popular adversarial attacks, 
+altered to attack siamese neural networks.
 
-\## Author
+## Author
 
 Harry Collins
 
-\## Installation
+## Installation
 
 Install JupyterLabs with the following pip command: pip install
 jupyterlab Then, in the LittleAdversary directory, run pip install -r
 requirements.txt to install the remaining required libraries.
 
-\## Usage
+To run the Jupyter notebooks, you must run Jupyter on your device after installing it, and then open
+the notebooks from your localhosted Jupyter instance.
+
+https://www.dataquest.io/blog/jupyter-notebook-tutorial/
+This site has a good guide on how to run Jupyter notebooks if more help is needed.
+
+## Usage
 
 There are four modules:
 
-\#### Notebooks
+#### Notebooks
 
 This module contains all of the code. Notebooks starting with \'utils\'
 simply provide utilities to help run the main notebooks, and can be used
@@ -58,25 +68,25 @@ neural networks which take pairs of inputs rather than single inputs.
 Therefore, these variants generate adversarial pairs of inputs e.g. face
 images.
 
-\#### Models
+#### Models
 
 This module is where all the models and model weights trained for the
 library are stored.
 
-\#### Data
+#### Data
 
 This module stores the datasets used to train the models.
 
-\#### Graphs
+#### Graphs
 
 Here, we store visualisations of our results, training histories, and
 some examples of adversarial data.
 
-\## Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
-\## License
+## License
 
 \[MIT\](https://choosealicense.com/licenses/mit/)
