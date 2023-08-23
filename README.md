@@ -1,5 +1,8 @@
 # LittleAdversary
 
+
+<img width="400" alt="Screenshot 2023-08-24 000844" src="https://github.com/harry-kav/LittleAdversary/assets/75479651/fb4651ef-8f3f-4098-b26a-138a7b296a8b">
+
 LittleAdversary is an adversarial machine learning library made to aid
 research into adversarial attacks and defences, with a primary focus on
 one-shot defences. The library features pre-trained, small neural
@@ -12,6 +15,8 @@ detailing how to use siamese neural networks to defend against adversarial
 attacks without requiring a large dataset of adversarial examples. The 
 library also contains modified versions of popular adversarial attacks, 
 altered to attack siamese neural networks.
+
+Project Presentation: https://drive.google.com/file/d/1gz66F5S6_tfON6246sCj9nbx6Z7F4ejk/view?usp=sharing  
 
 ## Author
 
